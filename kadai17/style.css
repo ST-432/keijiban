@@ -1,0 +1,72 @@
+
+main{
+	overflow: auto;
+	width: 100%;
+}
+.titlelogo img{
+	width: 250px;
+}
+header{
+	overflow: auto;
+	background-color: black;
+}
+
+header li{
+list-style:none;
+padding: 0 20px 10px 0;
+text-align: center;
+color: white;
+float:left;
+}
+
+.left{
+	float: left;
+	width: 70%;
+/*	background-color:pink;*/
+}
+.left .form{
+	overflow: auto;
+	background-color: #f5f5f5;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+h1{
+	border-bottom: 4px solid gray;
+	border-left: 6px solid black;
+}
+.left .NH{
+	border-left: 4px solid red;
+}
+.left .a{
+	color: gray;
+}
+.toukou h2{
+	border-bottom:3px solid gray;
+}
+.toukou1{
+background-color: #f5f5f5
+}
+.toukou2{
+background-color: #f5f5f5
+}
+.right{
+	float: right;
+	width: 30%;
+/*	background-color:skyblue;*/
+}
+.right h2{
+	border-bottom:3px solid gray;
+	padding: 0 0 0 10px;
+}
+.right p{
+	padding: 0 0 0 10px;
+}
+footer{
+clear: both;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+font-size: 20px;
+padding:2px 10px 2px 10px;
+}
